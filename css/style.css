@@ -405,3 +405,76 @@ h2 {
 .popup-btn:hover {
   background: #2b3a5a;
 }
+
+
+.photo-gallery {
+  margin-top: 25px;
+}
+
+.photo-link {
+  display: block;
+  margin: 8px 0;
+  padding: 0;
+  border: none;
+  background: none;
+  color: #d3deef;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 14px;
+  text-align: left;
+  cursor: pointer;
+  text-decoration: underline
+}
+
+.photo-link:hover {
+  color: #a0c4ff;
+}
+
+.gallery-viewer {
+  display: none;
+  inset: 0;
+  z-index: 1000;
+  background: rgba(0, 5, 7, 0.9);
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  position: fixed;
+  isolation: isolate;
+}
+
+.gallery-viewer::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("/assets/static2.gif");
+  opacity: 0.02;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.gallery-viewer.active {
+  display: flex;
+}
+
+.gallery-window {
+  position: relative;
+  z-index: 1;
+}
+
+.gallery-window img {
+  display: block;
+  max-width: 85vw;
+  max-height: 80vh;
+  width: auto;
+  height: auto;
+}
+
+.gallery-close {
+  position: absolute;
+  top: -30px;
+  right: 0;
+  border: none;
+  background: none;
+  color: #d3deef;
+  font-size: 24px;
+  cursor: pointer;
+}

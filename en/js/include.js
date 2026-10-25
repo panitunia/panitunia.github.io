@@ -37,13 +37,11 @@ const widgetHTML = `
 
     <p>Unauthorized external access detected.</p>
 
-    <p>Status: unknown</p>
-
-    <p>Source: unknown</p>
+    <p>Operator ID: panitunia</p>
 
     <p>
       <a href="https://panitunia.carrd.co/" target="_blank" class="widget-link">
-        external node
+        [external profile]
       </a>
     </p>
   </div>

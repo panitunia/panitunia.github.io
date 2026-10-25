@@ -37,13 +37,11 @@ const widgetHTML = `
 
     <p>Виявлено несанкціонований зовнішній вхід.</p>
 
-    <p>Статус: невідомо</p>
-
-    <p>Джерело: невідомо</p>
+    <p>ID: panitunia</p>
 
     <p>
       <a href="https://panitunia.carrd.co/" target="_blank" class="widget-link">
-        точка доступу
+        [зовнішній профіль]
       </a>
     </p>
   </div>
